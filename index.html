@@ -18,7 +18,7 @@
 	<meta property="og:type" content="website">
 	<meta property="og:title" content="The Wedding of Sheren dan Huda" />
 	<meta property="og:image" content="images/readme/half%20circle-200.png" />
-	<meta property="og:url" content="https://ngodingsolusi.github.io/the-wedding-of-rehan-maulidan/" />
+	<meta property="og:url" content=" " />
 	<meta property="og:site_name" content="The Wedding of Sheren dan Huda" />
 	<meta property="og:description" content="The Wedding of Sheren dan Huda. Open source wedding invitation" />
 
@@ -28,7 +28,7 @@
 	<meta name="twitter:title" content="The Wedding of Sheren dan Huda" />
 	<meta name="twitter:description" content="Open Source Wedding Invitation. The Wedding of Sheren dan Huda" />
 	<meta name="twitter:image" content="images/readme/half%20circle-200.png" />
-	<meta name="twitter:url" content="https://ngodingsolusi.github.io/the-wedding-of-rehan-maulidan/" />
+	<meta name="twitter:url" content=" " />
 
 	<link rel="icon"
 		href="https://img.freepik.com/vektor-premium/siluet-pasangan-pengantin-muslim-dengan-latar-belakang-putih_1009981-510.jpg">
@@ -263,7 +263,7 @@
 								<br>
 								<span class="parents-font">Ibu Evi Dwi Wahyuni</span>
 							</p>
-							<div id="social-media-rehan">
+							<div id="social-media -">
 								<ul class="fh5co-social-icons">
 									<li><a target="_blank" href="https://github.com/Sheren Dwi Maulina"><i
 												class="icon-github-with-circle"></i></a></li>
@@ -574,19 +574,6 @@
 			}*/
 		});
 
-		$.get("https://api.github.com/repos/ngodingsolusi/the-wedding-of-rehan-maulidan/issues?state=all&per_page", function (data) {
-			for (let i = 0; i < data.length; i++) {
-				const item = `
-				<a class="list-group-item">
-					<div class="name"><span class="strong" style="font-size: 24px">${data[i].user.login}</span> <span class="label label-success">${data[i].labels.length > 0 ? data[i].labels[0].name : 'Tanpa Keterangan'}</span></div>
-					<hr style="margin-top: 0;">
-					<div class="comment">${new showdown.Converter().makeHtml(data[i].body)}</div>
-				</a>
-			`;
-
-				$("#fh5co-testimonial .list-group").append(item);
-			}
-		});
 
 		function scrollToElement(el) {
 			$("html, body").animate({ scrollTop: $(`#${el}`).offset().top }, 1000);
@@ -724,8 +711,8 @@
 						<p>Description of the slide 1</p>
 					</div>`,*/
 				}, {
-					src: 'images/gallery/rehan.jpg-1024x.jpg',
-					thumb: 'images/gallery/rehan.jpg-1024x.jpg',
+					src: '',
+					thumb: '',
 					/*subHtml: `<div class="lightGallery-captions">
 						<h4>Caption 1</h4>
 						<p>Description of the slide 1</p>
