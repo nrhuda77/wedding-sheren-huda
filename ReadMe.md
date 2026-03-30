@@ -17,7 +17,7 @@
   <h1 align="center">The Wedding</h1>
 
   <p align="center">
-    <strong>Rehan & Maulidan</strong>
+    <strong>Sheren & Huda</strong>
     <br />
     <a href="https://img.freepik.com/vektor-premium/siluet-pasangan-pengantin-muslim-dengan-latar-belakang-putih_1009981-510.jpg">Explore the Invitation ! »</a>
     <br />
